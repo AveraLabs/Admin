@@ -38,7 +38,7 @@ export const AddNewHospitals = () => {
                 {/* modal */}
                 <div class="offcanvas offcanvas-end" id="add-new-record">
                   <div class="offcanvas-header border-bottom">
-                   <h5 class="offcanvas-title" id="exampleModalLabel">New Record</h5>
+                   <h5 class="offcanvas-title" id="exampleModalLabel">New Laboratory</h5>
                    <button
                     type="button"
                     class="btn-close text-reset"
@@ -49,7 +49,7 @@ export const AddNewHospitals = () => {
                 <div class="offcanvas-body flex-grow-1">
                   <form class="add-new-record pt-0 row g-2" id="form-add-new-record" onsubmit="return false">
                     <div class="col-sm-12">
-                      <label class="form-label" for="basicFullname">Full Name</label>
+                      <label class="form-label" for="basicFullname">Lab Name</label>
                       <div class="input-group input-group-merge">
                         <span id="basicFullname2" class="input-group-text"><i class="bx bx-user"></i></span>
                         <input
@@ -64,7 +64,7 @@ export const AddNewHospitals = () => {
                       </div>
                     </div>
                     <div class="col-sm-12">
-                      <label class="form-label" for="basicPost">Post</label>
+                      <label class="form-label" for="basicPost">Lab Email</label>
                       <div class="input-group input-group-merge">
                         <span id="basicPost2" class="input-group-text"><i class="bx bxs-briefcase"></i></span>
                         <input
@@ -79,7 +79,7 @@ export const AddNewHospitals = () => {
                       </div>
                     </div>
                     <div class="col-sm-12">
-                      <label class="form-label" for="basicEmail">Email</label>
+                      <label class="form-label" for="basicEmail">Lab location</label>
                       <div class="input-group input-group-merge">
                         <span class="input-group-text"><i class="bx bx-envelope"></i></span>
                         <input
