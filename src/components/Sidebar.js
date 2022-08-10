@@ -73,7 +73,7 @@ const SideBar = () => (
 
       {/* <!-- Layouts --> */}
       <li className="menu-item">
-        <a href="javascript:void(0);" className="menu-link menu-toggle">
+        <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-layout"></i>
           <div data-i18n="Add Lab tests">Add Lab tests</div>
         </a>
@@ -89,14 +89,14 @@ const SideBar = () => (
         </a>
       </li>
       <li className="menu-item">
-        <a href="javascript:void(0);" className="menu-link menu-toggle">
+        <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-food-menu"></i>
-          <div data-i18n="Add new hospital">Add new hospital</div>
+          <div data-i18n="Add new hospital">Add new workers</div>
         </a>
        
       </li>
       <li className="menu-item">
-        <a href="javascript:void(0);" className="menu-link menu-toggle">
+        <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-user"></i>
           <div data-i18n="Users">See Bookings</div>
         </a>
@@ -107,7 +107,7 @@ const SideBar = () => (
             </a>
           </li>
           <li className="menu-item">
-            <a href="javascript:void(0);" className="menu-link menu-toggle">
+            <a href="javascript:void(0);" className="menu-link">
               <div data-i18n="View">View</div>
             </a>
             <ul className="menu-sub">
@@ -141,7 +141,7 @@ const SideBar = () => (
         </ul>
       </li>
       <li className="menu-item">
-        <a href="javascript:void(0);" className="menu-link menu-toggle">
+        <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-check-shield"></i>
           <div data-i18n="See Mobile App User">See Mobile App User</div>
         </a>
