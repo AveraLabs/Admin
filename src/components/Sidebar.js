@@ -56,11 +56,6 @@ const SideBar = () => (
         </span>
         <span className="app-brand-text demo menu-text fw-bold ms-2">Super Admin</span>
       </a>
-
-      {/* <a href="javascript:void(0);" className="layout-menu-toggle menu-link text-large ms-auto">
-        <i className="bx menu-toggle-icon d-none d-xl-block fs-4 align-middle"></i>
-        <i className="bx bx-x d-block d-xl-none bx-sm align-middle"></i>
-      </a> */}
     </div>
 
     <div className="menu-divider mt-0"></div>
@@ -70,78 +65,19 @@ const SideBar = () => (
     <ul className="menu-inner py-1">
       {/* <!-- Dashboards --> */}
       <li className="menu-item active">
-        <a href="javascript:void(0);" className="menu-link menu-toggle">
+        <a href="/laboratories" className="menu-link">
           <i className="menu-icon tf-icons bx bx-home-circle"></i>
-          <div data-i18n="Dashboards">Add new Workers</div>
+          <div data-i18n="Laboratories">Laboratories</div>
         </a>
-        {/* <ul className="menu-sub">
-          <li className="menu-item">
-            <a href="index.html" className="menu-link">
-              <div data-i18n="Analytics">Analytics</div>
-            </a>
-          </li>
-          <li className="menu-item active">
-            <a href="dashboards-ecommerce.html" className="menu-link">
-              <div data-i18n="eCommerce">eCommerce</div>
-            </a>
-          </li>
-        </ul> */}
       </li>
 
       {/* <!-- Layouts --> */}
       <li className="menu-item">
         <a href="javascript:void(0);" className="menu-link menu-toggle">
           <i className="menu-icon tf-icons bx bx-layout"></i>
-          <div data-i18n="Layouts">Add Lab tests</div>
+          <div data-i18n="Add Lab tests">Add Lab tests</div>
         </a>
 
-        <ul className="menu-sub">
-          <li className="menu-item">
-            <a href="layouts-collapsed-menu.html" className="menu-link">
-              <div data-i18n="Collapsed menu">Collapsed menu</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="layouts-content-navbar.html" className="menu-link">
-              <div data-i18n="Content navbar">Content navbar</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="layouts-content-navbar-with-sidebar.html" className="menu-link">
-              <div data-i18n="Content nav + Sidebar">Content nav + Sidebar</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="../horizontal-menu-template" className="menu-link" target="_blank">
-              <div data-i18n="Horizontal">Horizontal</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="layouts-without-menu.html" className="menu-link">
-              <div data-i18n="Without menu">Without menu</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="layouts-without-navbar.html" className="menu-link">
-              <div data-i18n="Without navbar">Without navbar</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="layouts-fluid.html" className="menu-link">
-              <div data-i18n="Fluid">Fluid</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="layouts-container.html" className="menu-link">
-              <div data-i18n="Container">Container</div>
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="layouts-blank.html" className="menu-link">
-              <div data-i18n="Blank">Blank</div>
-            </a>
-          </li>
-        </ul>
       </li>
 
       {/* <!-- Apps & Pages --> */}
