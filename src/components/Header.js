@@ -1,6 +1,7 @@
 import React from "react"; 
 
-const Header = () => {  
+const Header = () => (  
+
     <nav className="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
             <div className="container-fluid">
               <div className="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
@@ -499,6 +500,6 @@ const Header = () => {
               </div>
             </div>
           </nav>
-} 
+);
 
 export default Header;

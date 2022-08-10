@@ -1,6 +1,6 @@
 import React from "react"; 
 
-const SideBar = () => { 
+const SideBar = () => ( 
     <aside id="layout-menu" className="layout-menu menu-vertical menu bg-menu-theme">
     <div className="app-brand demo">
       <a href="index.html" className="app-brand-link">
@@ -942,6 +942,6 @@ const SideBar = () => {
       </li>
     </ul>
   </aside>
-} 
+);
 
 export default SideBar;
