@@ -76,9 +76,9 @@ const Login = () => {
             data-app-dark-img="pages/login-dark.png"
           />
           <div className="mx-auto">
-            <h3>Avera for Front Desk Personnels 🥳</h3>
+            <h3>Avera for Admin 🥳</h3>
             <p>
-              This is an admin page for Clinical Front Desk Personnels<br />
+              This is an admin page<br />
                Start by signing in with your email & password.
             </p>
           </div>
