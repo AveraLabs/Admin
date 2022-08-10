@@ -1,0 +1,33 @@
+.errors {
+  color: #e20e0e; 
+  font-size: 13px;
+  transition: .3s;
+} 
+
+.card-contain { 
+  margin-left: 30%;
+} 
+
+
+@media screen and (min-width: 1212px) {
+ .tab-menu { 
+  position: fixed;
+  top: 50px;
+ }  
+
+ .container-tabs { 
+   padding-top: 14px;
+   padding-left: 250px;
+ }
+
+ .main-session { 
+   margin: 120px;
+ } 
+ 
+} 
+
+@media screen and (max-width: 1205px) {
+  .tab-menu { 
+    display: none;
+  }
+ }
