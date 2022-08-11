@@ -64,30 +64,42 @@ const SideBar = () => (
 
     <ul className="menu-inner py-1">
       {/* <!-- Dashboards --> */}
-      <li className="menu-item active">
-        <a href="/laboratories" className="menu-link">
+    
+      <li className="menu-item active menu-spacer ">
+        <a href="javascript:void(0);" className="menu-link ">
+          <i className="menu-icon tf-icons bx bx-home-circle"></i>
+          <div data-i18n="Laboratories">Dashboard</div>
+        </a>
+      </li>
+
+      <li ><span className="menu-headerr-text"></span></li>
+      <li className="menu-item  menu-spacer ">
+        <a href="/laboratories" className="menu-link ">
           <i className="menu-icon tf-icons bx bx-home-circle"></i>
           <div data-i18n="Laboratories">Laboratories</div>
         </a>
       </li>
+    
 
       {/* <!-- Layouts --> */}
-      <li className="menu-item">
+      <li ><span className="menu-headerr-text"></span></li>
+      <li className="menu-item ">
         <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-layout"></i>
           <div data-i18n="Add Lab tests">Add Lab tests</div>
         </a>
 
       </li>
-
-      {/* <!-- Apps & Pages --> */}
-      {/* <li className="menu-header small text-uppercase"><span className="menu-header-text">Apps &amp; Pages</span></li> */}
+      
+      <li ><span className="menu-headerr-text"></span></li>
       <li className="menu-item">
         <a href="app-calendar.html" className="menu-link">
           <i className="menu-icon tf-icons bx bx-calendar"></i>
           <div data-i18n="Create Test Combos">Create Test Combos</div>
         </a>
       </li>
+
+      <li ><span className="menu-header-text"></span></li>
       <li className="menu-item">
         <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-food-menu"></i>
@@ -95,6 +107,7 @@ const SideBar = () => (
         </a>
        
       </li>
+      <li ><span className="menu-headerr-text"></span></li>
       <li className="menu-item">
         <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-user"></i>
@@ -140,6 +153,8 @@ const SideBar = () => (
           </li>
         </ul>
       </li>
+
+      <li ><span className="menu-headerr-text"></span></li>
       <li className="menu-item">
         <a href="javascript:void(0);" className="menu-link">
           <i className="menu-icon tf-icons bx bx-check-shield"></i>
@@ -158,6 +173,8 @@ const SideBar = () => (
           </li>
         </ul>
       </li>
+
+      <li ><span className="menu-headerr-text"></span></li>
       <li className="menu-item">
         <a href="javascript:void(0);" className="menu-link menu-toggle">
           <i className="menu-icon tf-icons bx bx-dock-top"></i>

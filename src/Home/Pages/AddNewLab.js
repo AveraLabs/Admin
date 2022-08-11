@@ -2,32 +2,35 @@ import React from 'react';
 import SideBar from '../../components/Sidebar'; 
 import Header from '../../components/Header';
 
-export const AddNewHospitals = () => {
+export const AddNewLab = () => {
   return (
-    <div className='layout-wrapper layout-content-navbar'>  
 
+    <div className='layout-wrapper layout-content-navbar '>  
+    
      <div className='layout-container'> 
           <SideBar /> 
 
         <div className="layout-page">   
           <Header /> 
 
-          <div className='content-wrapper'> 
+           
 
-           <div class="container-xxl flex-grow-1 container-p-y">
+          <div className='content-wrapper '> 
+       
+          
+
+           <div class="container-xxl flex-grow-1 container-p-y top-space">
 
            <div class="card">
                 <div class="card-datatable table-responsive pt-0">
                   <table class="datatables-basic table table-bordered">
                     <thead>
                       <tr>
-                        <th></th>
-                        <th></th>
-                        <th>id</th>
-                        <th>Name</th>
+                        <th>Id</th>
+                        <th>Lab Name</th>
                         <th>Email</th>
-                        <th>Date</th>
-                        <th>Salary</th>
+                        <th>Date Joined</th>
+                        <th>Location</th>
                         <th>Status</th>
                         <th>Action</th>
                       </tr>
@@ -63,8 +66,38 @@ export const AddNewHospitals = () => {
                         />
                       </div>
                     </div>
+                   
                     <div class="col-sm-12">
-                      <label class="form-label" for="basicPost">Lab Email</label>
+                      <label class="form-label" for="basicEmail">Lab Email</label>
+                      <div class="input-group input-group-merge">
+                        <span class="input-group-text"><i class="bx bx-envelope"></i></span>
+                        <input
+                          type="text"
+                          id="basicEmail"
+                          name="basicEmail"
+                          class="form-control dt-email"
+                          placeholder="john.doe@example.com"
+                          aria-label="john.doe@example.com"
+                        />
+                      </div>
+                      {/* <div class="form-text">You can use letters, numbers & periods</div> */}
+                    </div>
+                    <div class="col-sm-12">
+                      <label class="form-label" for="basicEmail">Lab Phone Contact</label>
+                      <div class="col-sm-10">
+                            <input
+                              type="text"
+                              id="basic-default-phone"
+                              class="form-control phone-mask"
+                              placeholder="658 799 8941"
+                              aria-label="658 799 8941"
+                              aria-describedby="basic-default-phone"
+                            />
+                          </div>
+                      
+                    </div>
+                    <div class="col-sm-12">
+                    <label class="form-label" for="basicPost">Lab Location</label>
                       <div class="input-group input-group-merge">
                         <span id="basicPost2" class="input-group-text"><i class="bx bxs-briefcase"></i></span>
                         <input
@@ -77,21 +110,6 @@ export const AddNewHospitals = () => {
                           aria-describedby="basicPost2"
                         />
                       </div>
-                    </div>
-                    <div class="col-sm-12">
-                      <label class="form-label" for="basicEmail">Lab location</label>
-                      <div class="input-group input-group-merge">
-                        <span class="input-group-text"><i class="bx bx-envelope"></i></span>
-                        <input
-                          type="text"
-                          id="basicEmail"
-                          name="basicEmail"
-                          class="form-control dt-email"
-                          placeholder="john.doe@example.com"
-                          aria-label="john.doe@example.com"
-                        />
-                      </div>
-                      <div class="form-text">You can use letters, numbers & periods</div>
                     </div>
                     <div class="col-sm-12">
                       <label class="form-label" for="basicDate">Joining Date</label>

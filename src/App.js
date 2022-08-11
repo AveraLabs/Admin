@@ -4,7 +4,7 @@ import './App.css';
 import Dashbaord from './Home/Dashboard';
 import Verification from './Pages/Verification'; 
 
-import {AddNewHospitals} from './Home/Pages/AddNewHospitals'; 
+import {AddNewLab} from './Home/Pages/AddNewLab'; 
 // import Verification from './Pages/Verification';
 // import Home from './Pages/Home'; 
 
@@ -17,7 +17,7 @@ function App() {
         <Route path="login" element={<Login />}/>    
         <Route path='verification' element={<Verification />} /> 
         <Route path="dashboard" element={<Dashbaord />} /> 
-        <Route path="laboratories" element={<AddNewHospitals/>} />
+        <Route path="laboratories" element={<AddNewLab/>} />
      </Routes>
     </BrowserRouter>
   );
