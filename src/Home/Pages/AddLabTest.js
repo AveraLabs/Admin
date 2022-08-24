@@ -84,7 +84,7 @@ export const AddLabTest = () => {
                     </div> */}
                   </div>
                   <hr class="my-4 mx-n4" />
-                  <h6 class="fw-normal">2. Personal Info</h6>
+                  <h6 class="fw-normal">2. Other Info</h6>
                   <div class="row g-3">
                     {/* <div class="col-md-6">
                       <label class="form-label" for="multicol-first-name">First Name</label>
@@ -98,21 +98,12 @@ export const AddLabTest = () => {
                       <label class="form-label" for="multicol-country">Category</label>
                       <select id="multicol-country" class="select2 form-select" data-allow-clear="true">
                         <option value="">Select</option>
-                        <option value="Australia">Australia</option>
-                        <option value="Bangladesh">Bangladesh</option>
-                        <option value="Belarus">Belarus</option>
-                        <option value="Brazil">Brazil</option>
-                        <option value="Canada">Canada</option>
-                        <option value="China">China</option>
-                        <option value="France">France</option>
-                        <option value="Germany">Germany</option>
-                        <option value="India">India</option>
-                        <option value="Indonesia">Indonesia</option>
-                        <option value="Israel">Israel</option>
-                        <option value="Italy">Italy</option>
-                        <option value="Japan">Japan</option>
-                        <option value="Korea">Korea, Republic of</option>
-                      
+                        <option value="Australia">Liver</option>
+                        <option value="Bangladesh">STI</option>
+                        <option value="Belarus">Blood</option>
+                        <option value="Brazil">Heart Disease</option>
+                        <option value="Canada">Saliva</option>
+                        <option value="Korea">Glucose</option>
                       </select>
                     </div>
                     {/* <div class="col-md-6 select2-primary">

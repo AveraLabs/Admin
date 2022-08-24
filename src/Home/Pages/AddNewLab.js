@@ -22,13 +22,12 @@ export const AddNewLab = () => {
 
          <div className='content-wrapper '> 
        
-        
            <div class="container-xxl flex-grow-1 container-p-y top-space">
 
-           <div class="card">
+            <div class="card">
                 
-                <TableWithExport  
-                 title="Laboratories"/>
+              <TableWithExport  
+               title="Laboratories" />
 
                 {/* modal */}
         

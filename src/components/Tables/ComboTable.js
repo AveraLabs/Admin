@@ -33,10 +33,12 @@ const studentData = [
 export const ComboTable = ({title}) => {
 
     const columns = [
-        { title: "Name", field: "name", },
-        { title: "Email", field: "email", },
-        { title: "Year", field: "year", type: "numeric" },
-        { title: "Fee", field: 'fee', type: "currency" }]
+        { title: "Combo ID", field: "name", },
+        { title: "Combo Name", field: "email", },
+        { title: "Combo Price", field: "year", type: "numeric" },
+        { title: "List of labs", field: 'fee', type: "currency" }, 
+        { title: "Turn Around Time", field: 'fee', type: "currency" }
+    ]
     
     //   const downloadExcel = () => {
     //     const newData = studentData.map(row => {

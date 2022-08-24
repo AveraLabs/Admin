@@ -38,7 +38,7 @@ export const CreateTestCombos = () => {
            <div class="card">
                
                <ComboTable 
-               title="Test Combos"/>
+                title="Test Combos"/>
 
                 {/* modal */}
                 <div class="offcanvas offcanvas-end" id="add-new-record">
