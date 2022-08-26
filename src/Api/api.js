@@ -2,9 +2,9 @@ import axios from 'axios';
 
 const BASE_URL = 'http://localhost';
 
-export const login = () => { 
+export const login = async () => { 
  try { 
-
+   const response = await axios.post()
  } catch(error) { 
 
  }

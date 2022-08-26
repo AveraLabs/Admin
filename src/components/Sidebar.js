@@ -125,7 +125,7 @@ const SideBar = () => (
      
 
       <li><span className="menu-headerr-text"></span></li>
-        <NavLink to={"/detailed"} className="menu-item" activeClassName="active">
+        <NavLink to={"/detailedpayments"} className="menu-item" activeClassName="active">
           <li className="menu-link">
             <i className="menu-icon tf-icons bx bx-dollar"></i>
            <div data-i18n="Detailed Payments">Detailed Payments</div>

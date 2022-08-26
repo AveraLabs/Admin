@@ -7,7 +7,6 @@ import { ComboTable } from '../../components/Tables/ComboTable';
 export const CreateTestCombos = () => {  
 
   const tableData = [ 
-
   ]
 
   const columns = [

@@ -5,3 +5,4 @@ export const DetailedPayment = () => {
     <div>DetailedPayment</div>
   )
 }
+   
