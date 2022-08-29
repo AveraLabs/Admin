@@ -90,9 +90,9 @@ export const TableWithExport = ({title}) => {
             isFreeAction: true
           },
           {
-            icon: () => <button className="add-lab-button">Add New Lab</button>,
-            tooltip: "Export to Pdf",
-            onClick: () => downloadPdf(),
+            icon: () => <button className="add-lab-button" data-bs-toggle="offcanvas" data-bs-target="#add-new-record" aria-controls="add-new-record">Add New Lab</button>,
+            tooltip: "New Lab",
+            // onClick: () => downloadPdf(),
             isFreeAction: true
           }
         ]}
